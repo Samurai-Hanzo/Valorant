@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Druk Wide";
+  src: url("../fonts/FontsFree-Net-Druk-Wide-Medium.ttf");
+}
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Druk Wide";
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+}
+img {
+  width: 100%;
+}
+.container1 {
+  max-width: 2660px;
+}
+.header {
+  max-width: 110%;
+  height: 112px;
+  background: #1f2326;
+  display: flex;
+  justify-content: space-between;
+}
+.header-title-1 {
+  display: flex;
+}
+
+.logo {
+  width: 79px;
+  height: 40px;
+  margin: 36px 15px 36px 53px;
+}
+.line {
+  width: 2px;
+  height: 42px;
+  margin: 33px 15px 35px 15px;
+}
+.logo-val {
+  width: 48px;
+  height: 40px;
+  margin: 36px 20px 36px 15px;
+}
+.nav-item {
+  width: 104px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 30px 7px;
+}
+.nav-item:hover {
+  color: #ff4656;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.arrow {
+  margin: 3px;
+  width: 10%;
+}
+.header-title-2 {
+  display: flex;
+  max-width: 165px;
+  margin: 34px 70px 38px;
+}
+.header-title-2:hover {
+  cursor: pointer;
+}
+.avatar {
+  width: 42px;
+  height: 42px;
+}
+.avatar-title {
+  border-radius: 50%;
+}
+.user {
+  padding-left: 16px;
+}
+.user-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.agents {
+  background-image: url(../images/background.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+  width: 100%;
+}
+.agents-image {
+  width: 290px;
+  height: 80px;
+  font-family: "Druk Wide";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 81px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  transform: rotate(90deg);
+  margin-top: 196px;
+}
+.agents-title {
+  display: flex;
+  justify-content: end;
+}
+.agent-card {
+  min-width: 0;
+  position: relative;
+  margin-right: 70px;
+  margin-top: 73px;
+  margin-bottom: 20px;
+  margin-left: 28px;
+  max-width: 280px;
+  height: 650px;
+  background-color: #1f2326;
+}
+.agent-card > img {
+  margin-top: 30px;
+}
+.agent-card > img:nth-child(11) {
+  margin-top: 0;
+}
+.agent-card:hover {
+  background: white;
+  transition: 0.2s;
+}
+.country {
+  position: absolute;
+  width: 299px;
+  height: 31px;
+  top: 167px;
+  left: -107px;
+  font-family: "Druk Wide";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  color: #ff4656;
+  transform: rotate(90deg);
+}
+.name {
+  position: absolute;
+  width: 514px;
+  height: 94px;
+  left: -260px;
+  top: 242px;
+  font-family: "Druk Wide";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 94px;
+  letter-spacing: 0.1em;
+  transform: rotate(90deg);
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+}
+.abilities {
+  position: absolute;
+  bottom: -13px;
+  left: 31px;
+  display: flex;
+  width: 290px;
+  height: 65px;
+  background: #1f2326;
+  border: 2px solid #f8f8f8;
+}
+
+.abilities-title {
+  width: 60%;
+  margin: 8px;
+}
+/* SLIDER */
+
+.agents-list-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 0;
+}
+
+/* настройка слайдера */
+
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
